@@ -1,0 +1,10 @@
+INSERT INTO Students (Studentid, studentlastname, studentfirstname, programgroup ) VALUES ('A101','Smith','mary','Group1');
+INSERT INTO Students (Studentid, studentlastname, studentfirstname, programgroup ) VALUES ('A102','moun','rajat', ''Group1');
+INSERT INTO Students (Studentid, studentlastname, studentfirstname, programgroup ) VALUES ('A103','kala','peoda''Group1');
+INSERT INTO Students (Studentid, studentlastname, studentfirstname, programgroup ) VALUES ('A104','tita','dhanouri','Group1');
+INSERT INTO Students (Studentid, studentlastname, studentfirstname, programgroup ) VALUES ('A105','jatin','das','Group1');
+INSERT INTO Students (Studentid, studentlastname, studentfirstname, programgroup ) VALUES ('A106','raman','dhull','Group1');
+INSERT INTO Students (Studentid, studentlastname, studentfirstname, programgroup ) VALUES ('A107','khurana','gsyu','Group1');
+INSERT INTO Students (Studentid, studentlastname, studentfirstname, programgroup ) VALUES ('A108','gsy','stg','Group1');
+INSERT INTO Students (Studentid, studentlastname, studentfirstname, programgroup ) VALUES ('A109','jkhh','gshjsy','Group1');
+INSERT INTO Students (Studentid, studentlastname, studentfirstname, programgroup ) VALUES ('A110','tsfyug','hffdy','Group1');
