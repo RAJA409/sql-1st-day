@@ -65,3 +65,14 @@ SELECT streetname, avg(front) from thisyear
 Where bedroom = 4
 group by streetname
 order by streetname;
+
+
+
+
+
+
+
+SELECT streetname, max(front), min(front), max(front), count(front) from thisyear
+Where bedroom = 4
+group by streetname
+order by streetname;
