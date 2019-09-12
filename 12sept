@@ -1,0 +1,33 @@
+
+INSERT INTO pgmgroup ( programgroupid, programgroupname, classid, sectionid ) VALUES ( '1', 'group1', 'CSD2354', '9');
+INSERT INTO pgmgroup( programgroupid, programgroupname, classid, sectionid ) VALUES ( '2', 'group1', 'CSD2206', '9');
+INSERT INTO pgmgroup ( programgroupid, programgroupname, classid, sectionid ) VALUES ( '3', 'group1', 'CSD2058', '9');
+INSERT INTO pgmgroup ( programgroupid, programgroupname, classid, sectionid ) VALUES ( '4', 'group1', 'CSD1910', '9');
+INSERT INTO pgmgroup ( programgroupid, programgroupname, classid, sectionid ) VALUES ( '5', 'group1', 'CSD1762', '9');
+INSERT INTO pgmgroup ( programgroupid, programgroupname, classid, sectionid ) VALUES ( '6', 'group1', 'CSD1614', '9');
+INSERT INTO pgmgroup ( programgroupid, programgroupname, classid, sectionid ) VALUES ( '7', 'group2', 'CDS1113', '4');
+INSERT INTO pgmgroup ( programgroupid, programgroupname, classid, sectionid ) VALUES ( '8', 'group2', 'CSD1466', '4');
+INSERT INTO pgmgroup ( programgroupid, programgroupname, classid, sectionid ) VALUES ( '9', 'group2', 'CSD1318', '4');
+INSERT INTO pgmgroup ( programgroupid, programgroupname, classid, sectionid ) VALUES ( '10', 'group2', 'CDS1114', '4');
+INSERT INTO pgmgroup ( programgroupid, programgroupname, classid, sectionid ) VALUES ( '11', 'group2', 'CSD1170', '4');
+INSERT INTO pgmgroup ( programgroupid, programgroupname, classid, sectionid ) VALUES ( '12', 'group2', 'CSD1022', '4');
+select * from pgmgroup
+
+
+
+
+
+select * from students
+INSERT INTO students ( studentid, studentlastname, studentfirstname, programgroup ) VALUES ( 'A101', 'Smith', 'John', 'Group 1');
+INSERT INTO students ( studentid, studentlastname, studentfirstname, programgroup ) VALUES ( 'A102', 'Jones', 'Mike', 'Group 1');
+INSERT INTO students ( studentid, studentlastname, studentfirstname, programgroup ) VALUES ( 'A103', 'Smith', 'Susan', 'Group 1');
+INSERT INTO students ( studentid, studentlastname, studentfirstname, programgroup ) VALUES ( 'A104', 'Bichon', 'Peanut', 'Group 1');
+INSERT INTO students ( studentid, studentlastname, studentfirstname, programgroup ) VALUES ( 'A105', 'Smith', 'John', 'Group 1');
+INSERT INTO students ( studentid, studentlastname, studentfirstname, programgroup ) VALUES ( 'A106', 'Kirk', 'James', 'Group 2');
+INSERT INTO students ( studentid, studentlastname, studentfirstname, programgroup ) VALUES ( 'A107', 'Archer', 'Jonathan', 'Group 2');
+INSERT INTO students ( studentid, studentlastname, studentfirstname, programgroup ) VALUES ( 'A108', 'Janeway', 'Catherine', 'Group 2');
+INSERT INTO students ( studentid, studentlastname, studentfirstname, programgroup ) VALUES ( 'A109', 'Sisko', 'Benjamin', 'Group 2');
+INSERT INTO students ( studentid, studentlastname, studentfirstname, programgroup ) VALUES ( 'A110', 'Pike', 'Christopher', 'Group 3');
+INSERT INTO students ( studentid, studentlastname, studentfirstname, programgroup ) VALUES ( 'A111', 'Scott', 'Montgommery', 'Group 3');
+INSERT INTO students ( studentid, studentlastname, studentfirstname, programgroup ) VALUES ( 'A112', 'Riker', 'William', 'Group 3');
+
