@@ -54,3 +54,14 @@ SELECT @lastyearcount =COUNT(*) FROM LastYear
 SET @Difference = @ThisYearCount - @LastYearCount
 
 Print @Difference
+
+
+
+
+
+
+
+SELECT streetname, avg(front) from thisyear
+Where bedroom = 4
+group by streetname
+order by streetname;
