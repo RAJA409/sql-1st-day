@@ -31,3 +31,12 @@ INSERT INTO students ( studentid, studentlastname, studentfirstname, programgrou
 INSERT INTO students ( studentid, studentlastname, studentfirstname, programgroup ) VALUES ( 'A111', 'Scott', 'Montgommery', 'Group 3');
 INSERT INTO students ( studentid, studentlastname, studentfirstname, programgroup ) VALUES ( 'A112', 'Riker', 'William', 'Group 3');
 
+
+
+CREATE TABLE student(
+	studentid VARCHAR (20) NOT NULL
+	studentlastname VARCHAR (20) NULL
+	studentfirstname VARCHAR (20) NULL
+	studentgroup VARCHAR (20) NULL
+	PRIMARY KEY (studentid)
+	);
