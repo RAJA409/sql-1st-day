@@ -40,3 +40,17 @@ CREATE TABLE student(
 	studentgroup VARCHAR (20) NULL
 	PRIMARY KEY (studentid)
 	);
+
+
+
+
+DECLARE @ThisyearCount BIGINT,
+        @lastyearcount BIGINT,
+		@Difference BIGINT
+SELECT @ThisyearCount = COUNT(*) FROM ThisYear
+
+SELECT @lastyearcount =COUNT(*) FROM LastYear
+
+SET @Difference = @ThisYearCount - @LastYearCount
+
+Print @Difference
