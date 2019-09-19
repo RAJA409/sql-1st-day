@@ -115,3 +115,30 @@ where lots.veggie_id = veggies.veggie_id
 select veggie_name
 from farm
 where LEFT(veggie_name,1) = 'B' ;
+
+
+
+
+
+
+select lots.Quantity_of_veggies*veggies.veggie_price , veggies.veggie_name from lots , veggies
+where lots.lot_id=veggies.veggie_id
+
+
+select  min(Quantity_of_veggies) as least_quaninty , veggies.veggie_type from lots , veggies
+where lots.lot_id=veggies.veggie_id and veggie_type = 'root'
+group by veggie_type
+
+
+select lots.Quantity_of_veggies*veggies.veggie_price as total_value  , veggies.veggie_name from lots , veggies
+where lots.lot_id=veggies.veggie_id
+order by veggie_name
+
+select  sum(Quantity_of_veggies)  from lots , veggies
+where lots.lot_id=veggies.veggie_id
+
+CREATE VIEW field AS
+   select veggies.veggie_name, lots.Quantity_of_veggies, veggies.veggie_price from lots , veggies
+where lots.lot_id=veggies.veggie_id
+
+
