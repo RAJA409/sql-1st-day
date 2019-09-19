@@ -69,3 +69,12 @@ select * from veggies
 
 
 
+
+
+
+select min(lots.quantity_of_vegatable) , min(veggies.veggie_name)
+from lots,veggies
+where veggies.veggie_id=lots.veggie_id
+and veggies.veggie_type = 'root'
+
+
