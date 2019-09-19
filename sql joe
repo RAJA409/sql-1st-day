@@ -95,3 +95,15 @@ lots.quantity_of_vegatable * veggies.veggie_price as total
 from lots,veggies
 where lots.veggie_id = veggies.veggie_id
 order by veggie_name
+
+
+
+
+
+
+
+create view FARM as
+select veggies.veggie_name,
+lots.quantity_of_vegatable, veggies.veggie_price 
+from lots,veggies
+where lots.veggie_id = veggies.veggie_id
