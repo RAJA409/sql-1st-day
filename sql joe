@@ -86,3 +86,12 @@ from lots,veggies
 where veggies.veggie_id=lots.veggie_id
 and veggies.veggie_type = 'root'
 
+
+
+
+
+select veggies.veggie_name,
+lots.quantity_of_vegatable * veggies.veggie_price as total
+from lots,veggies
+where lots.veggie_id = veggies.veggie_id
+order by veggie_name
