@@ -78,3 +78,11 @@ where veggies.veggie_id=lots.veggie_id
 and veggies.veggie_type = 'root'
 
 
+
+
+
+select max(lots.quantity_of_vegatable) , max(veggies.veggie_name)
+from lots,veggies
+where veggies.veggie_id=lots.veggie_id
+and veggies.veggie_type = 'root'
+
