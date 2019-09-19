@@ -142,3 +142,11 @@ CREATE VIEW field AS
 where lots.lot_id=veggies.veggie_id
 
 
+
+
+
+
+select *
+from veggies v
+join lots l
+ON v.veggie_id = l.veggie_id
