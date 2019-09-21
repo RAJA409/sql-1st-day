@@ -84,3 +84,38 @@ elif user_number2 > user_number3:
 else:
      user_number3 > user_number1
      print user_number3
+
+
+
+
+
+
+class CreditCard:
+
+    def __init__(self, name, number, balance, limit):
+        self.name = name
+        self.number = number
+        self.balance = balance
+        self.limit = limit
+
+
+
+    def getbalance(self):
+        return balance
+
+    def getname(self):
+        return name
+
+    def getnumber(self):
+        return number
+
+    def getlimit(self):
+        return limit
+
+CreditCard1 = CreditCard("K Grewal", "1234567891234567", "9000", "90")
+CreditCard2 = CreditCard("H Grewal", "1325567898754567", "8000", "80")
+
+print (CreditCard1.name)
+print (CreditCard1.number)
+print (CreditCard1.balance)
+print (CreditCard1.limit)
