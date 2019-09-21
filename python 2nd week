@@ -63,3 +63,24 @@ if (c*c==a*a+b*b):
 
 elif (a*a!=b*b+c*c) and (b*b!=a*a+c*c) and (c*c!=a*a+c*c):
     print("not possible")
+    
+    
+    
+    
+    
+    (1)
+user_number1 = int(input("Enter the number1: "))
+print user_number1
+user_number2=int(input("Enter the number2: "))
+print user_number2
+user_number3 = int(input("Enter the number3: "))
+print user_number3
+print("The greatest number is")
+      
+if user_number1 > user_number2:
+    print user_number1
+elif user_number2 > user_number3:
+    print user_number2
+else:
+     user_number3 > user_number1
+     print user_number3
