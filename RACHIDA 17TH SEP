@@ -29,3 +29,51 @@ public class Songsup {
    //
 }
 }
+
+
+
+
+Rachida 23 sep
+
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication1.week.pkg3;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author 758008
+ */
+public class JavaApplication1Week3 {
+
+    /**
+     * @param args the command line arguments
+     */
+    // In pseudocode: Declare a as integer
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int a=2;
+        // In pseudocode: Declare a as integer
+        int b=4;
+        // In pseudocode: Declare b as integer
+        
+        int sum ;
+        //pseudocode: write "please enter the first value"
+        System.out.println("please enter the first value");
+        //input a
+        
+        a = input.nextInt ();
+        // pseudocode:Write ("please enter the second value");
+        System.out.println("please enter the second value");
+        b = input.nextInt();
+        //set sum = a + b
+        sum = a + b;
+        System.out.println("The sum of " + a + " and " + b + " is " +sum);
+    }
+    
+}
