@@ -7,10 +7,10 @@ PRIMARY KEY (ItemNumber),
 
 
 
-ALTER TABLE warehouse2
+{        ALTER TABLE warehouse2
 add item_pricee2 money;
 select * from Warehouse2
-);
+);      }   .> for modification
 
 insert into Warehouse2( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A101','fridge', '4', '9') 
 insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A102','tv', '5', '3') 
