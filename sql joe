@@ -9,8 +9,7 @@ where lots.veggie_id = veggies.veggie_id
 
 
 
-
-
+predicate join 
 select*
 from lots,veggies
 where veggies.veggie_id=lots.veggie_id
