@@ -1,0 +1,109 @@
+CREATE TABLE Warehouse2(
+ItemNumber varchar(20),
+ItemDescription varchar(20),
+ShelveNumber varchar(20),
+QuantityInStock int,
+PRIMARY KEY (ItemNumber),
+
+
+
+ALTER TABLE warehouse2
+add item_pricee2 money;
+select * from Warehouse2
+);
+
+insert into Warehouse2( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A101','fridge', '4', '9') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A102','tv', '5', '3') 
+insert into Warehouse2( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A103','led', '6', '4') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A104','lcd', '7', '7') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A105','bulb', '8','9')
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A106','tube', '9', '5') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A107','speaker', '1', '1') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A108','computer', '2', '11') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A109','laptop', '3', '10') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A110','keyboard', '11', '8') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A111','pc', '12', '6') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A112','mouse', '13', '16') 
+select * from Warehouse2
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE Truck(
+TruckNumber int,
+DriverName varchar(20),
+orderNumber varchar(20),
+primary key (TruckNumber),
+);
+
+
+insert into Truck ( TruckNumber, DriverName, orderNumber ) VALUES ('1','rajat', 'RED' ); 
+insert into Truck ( TruckNumber, DriverName, orderNumber ) VALUES ('2','jatin', 'ORANGE' );
+insert into Truck ( TruckNumber, DriverName, orderNumber ) VALUES ('3','kala', 'YELLOW' ); 
+insert into Truck ( TruckNumber, DriverName, orderNumber ) VALUES ('4','peter', 'BROWN' );
+insert into Truck ( TruckNumber, DriverName, orderNumber ) VALUES ('5','mndp', 'GREEN');
+insert into Truck ( TruckNumber, DriverName, orderNumber ) VALUES ('6','jatta', 'VIOLET' ); 
+insert into Truck ( TruckNumber, DriverName, orderNumber ) VALUES ('7','harman', 'FUSCHIA' ); 
+insert into Truck ( TruckNumber, DriverName, orderNumber ) VALUES ('8','love', 'PURPLE' ); 
+insert into Truck ( TruckNumber, DriverName, orderNumber ) VALUES ('9','preet', 'CHARTREUSE' ); 
+insert into Truck ( TruckNumber, DriverName, orderNumber ) VALUES ('10','avi', 'GREY' ); 
+insert into Truck ( TruckNumber, DriverName, orderNumber ) VALUES ('11','jashan', 'MAGENTA' ); 
+insert into Truck ( TruckNumber, DriverName, orderNumber ) VALUES ('12','gora', 'CYAN' );
+select* from Truck;
+
+
+
+
+
+
+
+
+
+create table orders (
+order_id  varchar(20),
+ItemNumber varchar(20),
+trucknumber  varchar(20),
+primary key (order_id)
+
+
+)
+
+
+
+
+
+
+
+
+
+
+create database jillstrucking;
+
+CREATE TABLE Warehouse2(
+ItemNumber varchar(20),
+ItemDescription varchar(20),
+ShelveNumber varchar(20),
+QuantityInStock int,
+PRIMARY KEY (ItemNumber),
+);
+
+insert into Warehouse2( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A101','fridge', '4', '9') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A102','tv', '5', '3') 
+insert into Warehouse2( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A103','led', '6', '4') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A104','lcd', '7', '7') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A105','bulb', '8','9')
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A106','tube', '9', '5') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A107','speaker', '1', '1') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A108','computer', '2', '11') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A109','laptop', '3', '10') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A110','keyboard', '11', '8') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A111','pc', '12', '6') 
+insert into Warehouse2 ( ItemNumber, ItemDescription, ShelveNumber, QuantityInStock) VALUES ('A112','mouse', '13', '16') 
+select * from Warehouse2;
