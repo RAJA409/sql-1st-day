@@ -149,3 +149,33 @@ select *
 from veggies v
 join lots l
 ON v.veggie_id = l.veggie_id
+
+
+
+
+
+
+
+
+ CREATE TABLE VEGGIES(
+
+ veggie_id varchar(20),
+ veggie_price money,
+ veggie_name varchar(20),
+ primary key (veggie_id)
+ );
+
+insert into veggies (veggie_id,veggie_price,veggie_name ) values('1',1,'carrot');
+insert into veggies (veggie_id,veggie_price,veggie_name ) values('2',9,'peas');
+insert into veggies (veggie_id,veggie_price,veggie_name ) values('3',3,'tomatoes');
+insert into veggies (veggie_id,veggie_price,veggie_name) values('4',7,'corn');
+insert into veggies (veggie_id,veggie_price,veggie_name ) values('5',2,'squash');
+insert into veggies (veggie_id,veggie_price,veggie_name ) values('6',3,'artichokes');
+insert into veggies (veggie_id,veggie_price,veggie_name ) values('7',9,'aubergines');
+insert into veggies (veggie_id,veggie_price,veggie_name ) values('8',2,'cauliflower');
+insert into veggies (veggie_id,veggie_price,veggie_name ) values('9',1,'green bean');
+insert into veggies (veggie_id,veggie_price,veggie_name) values('10',5,'brocoflower');
+insert into veggies (veggie_id,veggie_price,veggie_name ) values('11',3,'brusells sprout');
+insert into veggies (veggie_id,veggie_price,veggie_name) values('12',2,'lady finger');
+select * from veggies
+drop table VEGGIES
