@@ -162,3 +162,55 @@ string name (for whole previous line print)
     }
     
 }
+
+
+
+
+
+rachida 1 oct
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package methods;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author 758008
+ */
+public class Methods {
+    public static double average(int x, int y){
+        double avg = (x+y)/2.0;
+        return  avg;
+    }
+    
+    
+    public static void showmessage() { 
+        System.out.println("hello! welcome To Lambton");
+    }
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        showm                                                                                                                   essage();
+        System.out.println("please enter two values");
+        int x = input.nextInt();
+         int y = input.nextInt();
+         double avg = average(x,y);
+         System.out.println(" the average is " +avg );  
+         
+         
+         
+         System.out.println("please enter two values");
+        int a = input.nextInt();
+         int b = input.nextInt();
+         double avg2 = average(a,b);
+         System.out.println(" the average is " +avg2 );  
+    }
+    
+}
