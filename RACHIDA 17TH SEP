@@ -214,3 +214,59 @@ public class Methods {
     }
     
 }
+
+
+
+
+
+
+15 oct
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication.week.pkg6;
+
+import static java.time.Clock.system;
+import java.util.Scanner;
+
+/**
+ *
+ * @author 758008
+ */
+public class JavaApplicationWeek6 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        //Declare value 1 as Integer
+        //Declare value 2 as Integer
+        
+        //display "Please enter the first value"
+        System.out.println("Please enter the first value");
+        int value1; //Declare value 2 as Integer
+        value1= input.nextInt(); //Input value1
+        //display "Please enter the second value"
+        System.out.println("Please enter the second value");
+        int value2 = input.nextInt();
+        
+        if(value1>value2)
+            System.out.println(value1 + " is greater than " + value2);
+        else
+            System.out.println(value2 + "is greater than "+value1);
+        
+        
+        // TODO code application logic here
+    
+
+    
+    
+}
+
+    private static void If(boolean b) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
